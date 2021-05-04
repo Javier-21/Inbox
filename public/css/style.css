@@ -1,0 +1,17 @@
+#botonComponer{
+  background-color: #66ccff ;
+}
+
+.divLila{
+  border: 1px solid  #660099;
+  margin-top:10px;
+  float:left;
+  padding: 5px;
+}
+
+#adressBook{
+  margin-left: 5px;
+}
+table td{
+  vertical-align: top;
+}

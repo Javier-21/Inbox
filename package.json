@@ -1,0 +1,28 @@
+{
+  "name": "inbox",
+  "version": "1.0.0",
+  "description": "online inbox",
+  "main": "index.html",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "inbox",
+    "online",
+    "vue",
+    "nodeJS"
+  ],
+  "author": "mc",
+  "license": "ISC",
+  "bugs": {
+    "url": ""
+  },
+  "homepage": "",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-session": "^1.17.0"
+  }
+}

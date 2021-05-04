@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Login</title>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <form class="login" action="/login" method="post">
+      <label for="account">Mail Account</label><input type="text" id="account" name="account"><br />
+      <label for="password">Password</label><input type="password" id="password" name="password"><br /><br />
+      <input type="submit" name="" value="Login">
+    </form>
+    <div class="error" id="errorMsg">
+    </div>
+    <script type="text/javascript">
+      var searchParams = new URLSearchParams(location.search);
+      if(searchParams.has("error") === true){
+        console.log(document);
+        let msg = (searchParams.get("error") == 1) ?
+          "Account does not exist." : "Password incorrect";
+        document.getElementById("errorMsg").innerHTML = msg;
+      }
+    </script>
+  </body>
+</html>
